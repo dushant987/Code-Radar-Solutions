@@ -9,8 +9,7 @@ int main() {
     scanf("%d",&a);
     if (a%2==0)
     printf("Even");
-    else (a%2!=0)
+    else
     printf("Odd");
-
     return 0;
 }
