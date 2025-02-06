@@ -5,11 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,result1,result2;
-    scanf("%d%d",&a,&b);
-    result1= ~a|~b ;
-    printf("%d",result1);
-    result2= ~a&~b ;
-    printf("%d",result2);
+    int a,b;
+    scanf("%d",&a);
+    b= ~a;
+    printf("%d",b);
     return 0;
 }
