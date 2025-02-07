@@ -7,9 +7,11 @@ char* welcome() {
 int main() {
     char a[100];
     scanf("%c",&a);
-    if (a<=A && a>=Z)
+    if (a<=A && a>=Z){
     printf("Uppercase");
-    else
+    }
+    else{
     printf("Lowercase");
+    }
     return 0;
 }
