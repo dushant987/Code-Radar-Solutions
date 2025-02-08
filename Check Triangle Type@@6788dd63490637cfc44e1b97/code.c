@@ -12,6 +12,6 @@ int main() {
     else if ((a==b!=c ) || a==c!=b || b==c!=a)
     printf("Isosceles");
     else 
-    printf("scalene");
+    printf("Scalene");
     return 0;
 }
