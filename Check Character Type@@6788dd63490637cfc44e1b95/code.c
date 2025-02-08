@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    char a[100];
+    char a;
     scanf("%c",&a);
-    if (a="a" || a="i" || a="e" || a="o" || a="u")
+    if (a=="a" || a=="i" || a=="e" || a=="o" || a=="u")
     printf("%c",a);
     return 0;
 
