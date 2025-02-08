@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char a;
+    char a[100];
     scanf("%c",&a);
     if (a="a" || a="i" || a="e" || a="o" || a="u")
     printf("%c",a);
