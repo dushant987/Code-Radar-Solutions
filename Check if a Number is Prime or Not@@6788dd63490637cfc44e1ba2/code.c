@@ -10,7 +10,7 @@ int main() {
     for (i=1;i<=n;i++);
     {
         if(a%i==0)
-        sum=sum+1
+        sum=sum+1;
     }
     if (sum==2)
     printf("Prime");
