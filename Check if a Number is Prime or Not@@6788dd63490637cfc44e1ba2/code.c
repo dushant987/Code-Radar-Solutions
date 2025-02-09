@@ -5,11 +5,15 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    int a ,i,sum;
     scanf("%d",&a);
-    if (a%2==0)
-    printf("Not Prime");
-    else
+    for (i=1;i<=n;i++){
+        if(a%i==0)
+        sum=sum+1
+    }
+    if (sum==2)
     printf("Prime");
+    else
+    printf("Not Prime");
     return 0;
 }
