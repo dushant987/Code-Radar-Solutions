@@ -5,13 +5,13 @@ int main() {
     scanf("%f%f",&a,&b);
     scanf(" %c",&c);
     if (c=='+')
-    printf("%f",a+b);
+    printf("%.2f",a+b);
     else if (c=='-')
-    printf("%f",a-b);
+    printf("%.2f",a-b);
     else if (c=='*')
-    printf("%f",a*b);
+    printf("%.2f",a*b);
     else if (c=='/' && b!=0)
-    printf("%f",a/b);
+    printf("%.2f",a/b);
     else if (c=='/' && b==0)
     printf("Error");
 
