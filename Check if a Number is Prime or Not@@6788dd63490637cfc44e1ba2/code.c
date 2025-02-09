@@ -12,7 +12,7 @@ int main() {
         if(a%i==0)
         sum=sum+1;
     }
-    if (sum>=2)
+    if (sum>2)
     printf("Not Prime");
     else
     printf("Prime");
