@@ -9,13 +9,13 @@ int main() {
     char c;
     scanf("%d%d",&a,&b);
     if (c=="+")
-    printf(a+b);
+    printf("%d%d",a+b);
     else if (c=="-")
-    printf(a-b);
+    printf("%d%d",a-b);
     else if (c=="*")
-    printf(a*b);
+    printf("%d%d",a*b);
     else if (c=="/")
-    printf(a/b);
+    printf("%d%d",a/b);
     else
     printf("Error");
 
