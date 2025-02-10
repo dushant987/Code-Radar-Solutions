@@ -8,7 +8,7 @@ int main()
 {
     int i ,j ;
     scanf("%d",&j);
-    while(j>0)
+    while(j>1)
     {
         printf("\n");
         i=1;
