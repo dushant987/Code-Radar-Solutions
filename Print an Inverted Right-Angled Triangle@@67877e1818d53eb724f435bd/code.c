@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&j);
     while(j>i){
         printf("\n");
-    while(i<=3){
+    while(i<=j){
         printf("*");
         i++;
     }
