@@ -15,7 +15,7 @@ int main()
     
         while(i<=j)
        {
-            printf("*");
+            printf("* ");
              i++;
         }
      j--;
