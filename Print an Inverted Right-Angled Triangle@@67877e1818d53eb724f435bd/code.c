@@ -10,7 +10,7 @@ int main()
     scanf("%d",&j);
     while(j>0)
     {
-        printf("\n");
+        
         i=1;
     
         while(i<=j)
@@ -18,6 +18,7 @@ int main()
             printf("* ");
              i++;
         }
+        printf("\n");
      j--;
     }
     return 0;
