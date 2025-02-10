@@ -5,15 +5,16 @@ char* welcome() {
 }
 
 int main() {
-    int i=1 ,j ;
+    int i ,j ;
     scanf("%d",&j);
-    while(j>i){
+    while(j>0){
         printf("\n");
+        i=1;
     while(i<=j){
         printf("*");
         i++;
     }
-    i++;
+    j--;
     }
     return 0;
 }
