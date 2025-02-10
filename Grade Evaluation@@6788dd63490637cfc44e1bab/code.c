@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char a[];
+    char a;
     scanf("%c",&c);
     if (a=='A')
     printf("Excellent");
