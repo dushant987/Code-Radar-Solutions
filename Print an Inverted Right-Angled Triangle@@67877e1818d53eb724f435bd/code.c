@@ -13,9 +13,9 @@ int main() {
     }
     while(i<=3){
         printf("*");
-        i++;
+        i++
     }
-    i++;
+    i++
 
     return 0;
 }
