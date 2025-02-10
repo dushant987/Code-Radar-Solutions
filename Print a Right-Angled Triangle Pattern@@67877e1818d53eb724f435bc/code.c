@@ -10,11 +10,13 @@ int main() {
     j=n;
     while (n>0)
     {
-       while(n<(j+1))
+       while(n<(j+1)){
        printf("*");
        n++;
-    }
+       }
+    
     printf("\n");
     n--;
+    }
     return 0;
 }
