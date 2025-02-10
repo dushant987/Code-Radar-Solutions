@@ -9,12 +9,11 @@ int main() {
     scanf("%d",&j);
     while(j>i){
         printf("\n");
-    }
     while(i<=3){
         printf("*");
         i++;
     }
     i++;
-
+    }
     return 0;
 }
