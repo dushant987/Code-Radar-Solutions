@@ -7,9 +7,15 @@ char* welcome() {
 int main() {
     int i ,j ;
     scanf("%d",&j);
-    for(i=1;i<=j;i++)
-     for(j=j;j>=i;j--){
+    i=1
+    while(j>i){
+        printf("/n");
+    }
+    while(i<=3){
         printf("*");
-        }
+        i++;
+    }
+    i++;
+
     return 0;
 }
