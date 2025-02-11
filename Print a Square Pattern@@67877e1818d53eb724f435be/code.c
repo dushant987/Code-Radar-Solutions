@@ -11,8 +11,8 @@ int main{
         printf("* ");
         b++;
       } 
+      printf("\n");
+      i++;
     }
-    i++;
-    printf("\n");
     return 0;
 }
