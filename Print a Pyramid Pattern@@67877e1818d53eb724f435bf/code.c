@@ -1,20 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int n,i,j;
+    int n,i,j,b;
     scanf("%d",&n);
     i=1;
-    while(i<n){
-     while (i<=n-1){
-        printf(" ");
-     }
-     j=1;
-     while(i>=j){
-        printf("*");
-        j++;
-     }
-     i++;
-     printf("\n");
+    while(i>=n){
+        j=1;
+        while(j<=n-1)
+        {
+            printf(" ");
+            j++;
+        }
+        b=1;
+        c=1;
+        while(b<=c){
+            printf("*");
+            c=c+2;
+        }
+        i++;
     }
     return 0;
 }
