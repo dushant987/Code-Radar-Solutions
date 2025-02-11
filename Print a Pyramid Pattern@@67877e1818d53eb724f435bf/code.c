@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n,i,j,b;
+    int n,i,j,b,c;
     scanf("%d",&n);
     i=1;
     while(i>=n){
@@ -13,7 +13,8 @@ int main() {
         }
         b=1;
         c=1;
-        while(b<=c){
+        while(b<=c)
+        {
             printf("*");
             c=c+2;
         }
