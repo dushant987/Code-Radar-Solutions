@@ -6,17 +6,16 @@ int main() {
     i=1;
     while(i<=n){
         j=1;
-        while(j<=n-1)
+        while(j<=n-i)
         {
             printf(" ");
             j++;
         }
         b=1;
-        c=1;
-        while(b<=c)
+        while(b<=2*i-1)
         {
             printf("*");
-            c=c+2;
+            b++;
         }
         i++;
     }
