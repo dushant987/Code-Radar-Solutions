@@ -17,6 +17,7 @@ int main() {
             printf("*");
             b++;
         }
+        printf("\n");
         i++;
     }
     return 0;
