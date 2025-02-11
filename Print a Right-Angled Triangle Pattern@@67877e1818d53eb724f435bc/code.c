@@ -7,17 +7,16 @@ char* welcome() {
 int main() {
     int n,i,j;
     scanf("%d",&n);
-    j=n;
-    while (n>0)
+    i=1;
+    while(n>=i)
     {
-       while(n<(j+1)){
-       printf("*");
-       n++;
-       }
-    
-    printf("\n");
-    
+        n=1;
+        while(n>=i){
+            printf("*");
+            n++;
+
+        }
     }
-    n--;
+    i++;
     return 0;
 }
