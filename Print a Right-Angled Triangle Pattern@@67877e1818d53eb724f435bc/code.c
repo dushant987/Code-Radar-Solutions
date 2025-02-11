@@ -16,7 +16,7 @@ int main() {
             printf("*");
             n++;
         }
+        i++;
     }
-    i++;
     return 0;
 }
