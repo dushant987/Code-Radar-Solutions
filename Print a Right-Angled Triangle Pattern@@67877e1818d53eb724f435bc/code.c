@@ -11,7 +11,7 @@ int main() {
     while(n>=i)
     {
         n=1;
-        while(n>=i)
+        while(n<=i)
         {
             printf("*");
             n++;
