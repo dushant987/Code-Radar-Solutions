@@ -18,7 +18,7 @@ int main(){
         j++;
       }
       printf("\n");
-      i++;
+      n--;
     }
     return 0;
 }
