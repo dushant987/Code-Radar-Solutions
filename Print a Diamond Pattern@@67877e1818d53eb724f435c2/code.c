@@ -9,6 +9,7 @@ int main(){
         for(int c=1;c<=2*i-1;c++){
             printf("*");
         }
+        printf("\n");
     }
     for(int d=1;d<n;d++){
        for(int e=1;e<=d;e++){
@@ -17,6 +18,7 @@ int main(){
        for(int f=n-1;f<=2*f-1;f--){
         printf("*");
        }
+       printf("\n");
     }
     return 0;
 }
