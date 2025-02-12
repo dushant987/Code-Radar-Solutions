@@ -1,23 +1,36 @@
 #include <stdio.h>
 int main(){
-    int n,i,j,k,a,b,c;
+    int n,b,j,k,l;
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        for(j=1;j<n-1;j++)
+    i=1;
+    while(i<n+n-1)
+    {
+      b=1;
+      while(b<n)
+      {
         printf(" ");
-        for(k=1;k<2*i-1;k++){
-            printf("*");
-        }
+        b++;
+      } 
+      j=1;
+      while(j<=2*i-1)
+      {
+        printf("*");
+        j++;
+      }
+      k=1;
+      while(k<i)
+      {
+        printf(" ");
+        k++;
+      }
+      l=1;
+      while(l<n)
+      {
+        printf("*");
+        l++;
+      }
+      printf("\n");
+      i++;
     }
-    for(a=1;a<n;a++){
-        for(b=1;b<=a;b++){
-            printf(" ");
-        }
-        for(c=1;c<k-2;c++)
-        pritnf("*");
-
-    }
-    k=k-2;
-
     return 0;
 }
