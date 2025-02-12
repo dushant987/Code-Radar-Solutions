@@ -11,7 +11,7 @@ int main(){
         b++;
       }
       if (i==1 || i==n || b==1 || b==n)
-      printf("*");
+      printf("* ");
       else
       printf(" ");
       i++;
