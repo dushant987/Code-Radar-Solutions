@@ -3,7 +3,7 @@ int main(){
     int n,b,j;
     scanf("%d",&n);
     i=1;
-    while(i<=n)
+    while(n>0)
     {
       b=1;
       while(b<n)
@@ -18,6 +18,7 @@ int main(){
         j++;
       }
       printf("\n");
+      i++;
       n--;
     }
     return 0;
