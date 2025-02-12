@@ -1,22 +1,14 @@
 #include <stdio.h>
 int main(){
-    int n,i,b;
+    int n,i,j;
     scanf("%d",&n);
-    i=1;
-    while(i<=n)
-    {
-      b=1;
-      while(b<=n)
-      {
-        b++;
-      }
-      if (i==1 || i==n || b==1 || b==n)
-      printf("* ");
-      else
-      printf(" ");
-      i++;
-      printf("\n");
+    for (i=1;i<=n;i++){
+        for(j=1;j<=n;j++){
+            if (i==1 || i==n || j==1 || j==n)
+            printf("*");
+            else
+            printf(" ");
+        }
     }
-
     return 0;
 }
