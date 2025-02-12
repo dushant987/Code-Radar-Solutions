@@ -11,14 +11,14 @@ int main(){
         }
         printf("\n");
     }
-    for(int d=1;d<n;d++){
+    for(int d=n-1;d>=1;n--){
        for(int e=1;e<=d;e++){
         printf(" ");
        }
-       for(int f=n-1;f<=2*f-1;f--){
+       for(int f=1;f<=(2*(n-1)-1);f++){
         printf("*");
        }
-       printf("\n");
+       printf("\n")
     }
     return 0;
 }
