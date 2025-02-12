@@ -20,7 +20,7 @@ int main(){
        for(int f=1;f<=2*d-1;f++){
         printf("*");
        }
-       printf("\n")
+       printf("\n");
     }
     return 0;
 }
