@@ -8,9 +8,12 @@ int main(){
       b=1;
       while(b<=n)
       {
-        printf("*");
         b++;
       }
+      if (i==1 || i==n || b==1 || b==n)
+      printf("*");
+      else
+      printf(" ");
       i++;
       printf("\n");
     }
