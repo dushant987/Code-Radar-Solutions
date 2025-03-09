@@ -20,7 +20,7 @@ int main(){
      break;
      }
     }
-    if (x=true)
+    if (x==true)
     printf("Sorted");
     
     return 0;
