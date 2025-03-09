@@ -12,7 +12,7 @@ int main(){
         if(a[i]<a[j])
         {
             printf("Sorted");
-            break
+            break;
         }
      }
     }
