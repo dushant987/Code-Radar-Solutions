@@ -16,7 +16,7 @@ int main(){
      {
         if (a[i]==a[j])
         b++;
-        a[j]== -1;
+        a[i]== -1;
      }
      printf("%d %d",a[i],b);
      printf("\n");
