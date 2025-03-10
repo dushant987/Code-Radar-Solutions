@@ -27,5 +27,5 @@ int main(){
     printf("%d",a[i]);
 
     
-    return o;
+    return 0;
 }
