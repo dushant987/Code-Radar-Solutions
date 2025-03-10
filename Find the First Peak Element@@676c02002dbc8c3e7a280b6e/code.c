@@ -23,9 +23,8 @@ int main(){
         }
 
     }
-        
-       
-        printf("%d",a[n-1]);
+    if (a[n-1]>a[n-2])
+    printf("%d",a[n-1]);
 
     return 0;
 }
