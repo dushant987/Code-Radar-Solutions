@@ -15,7 +15,7 @@ int main(){
         }
     }
     printf("%d ",a[0]);
-    printf("%d",a[j]);
+    printf("%d",a[n-1]);
 
     
     return 0;
