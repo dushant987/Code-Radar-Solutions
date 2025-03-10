@@ -2,13 +2,12 @@
 #include<stdbool.h>
 int main(){
     int n;
-    scanf("%d");
+    scanf("%d",&n);
     int a[n],i;
     for(i=0;i<n;i++)
     {
      scanf("%d",&a[i]);
     }
-    bool x;
     if (a[0]>a[1])
     {
         printf("%d",a[0]);
@@ -19,7 +18,6 @@ int main(){
          
          if (a[i]>a[i-1] && a[i]<a[i+1])
         {   
-          x = true;
            printf("%d",a[i]);
            return 0;
         }
