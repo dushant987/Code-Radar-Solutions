@@ -12,9 +12,9 @@ int main(){
         {
             b++;
         }
-        break;
     }
     printf("%d",b);
+    printf("%d",n-b);
 
     return 0;
 }
