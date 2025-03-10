@@ -8,7 +8,7 @@ int main(){
     int b=0;
     for(int j=0;j<n;j++)
     {
-        if (a[i]%2==0)
+        if (a[j]%2==0)
         {
             b++;
         }
