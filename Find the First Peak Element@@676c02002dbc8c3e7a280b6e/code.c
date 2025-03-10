@@ -25,6 +25,8 @@ int main(){
     }
     if (a[n-1]>a[n-2])
     printf("%d",a[n-1]);
+    else
+    printf("-1");
 
     return 0;
 }
