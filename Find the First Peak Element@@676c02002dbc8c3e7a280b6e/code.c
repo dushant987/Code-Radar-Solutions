@@ -9,23 +9,24 @@ int main(){
      scanf("%d",&a[i]);
     }
     bool x;
+    if (a[0]>a[1])
+    {
+        printf("%d",a[0]);
+        return 0;
+    }
     for (i=1;i<n-1;i++)
     {
          
          if (a[i]>a[i-1] && a[i]<a[i+1])
         {   
           x = true;
-          break;
+           printf("%d",a[i]);
+           return 0;
         }
 
     }
-        if (a[0]>a[1])
-        printf("%d",a[0]);
-        else if (x =true)
-        {
-        printf("%d",a[i]);
-        }
-        else
+        
+       
         printf("%d",a[n-1]);
 
     return 0;
