@@ -10,7 +10,7 @@ int main(){
         for(int j=1;j<n;j++)
         {
             if(a[i]>a[j])
-            int temp[1]={0};
+            int temp[1]{0};
             temp[0]=a[i];
             a[i]=a[j];
             a[j]=temp[0];
