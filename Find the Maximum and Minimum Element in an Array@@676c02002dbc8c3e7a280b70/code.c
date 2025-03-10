@@ -10,8 +10,11 @@ int main(){
         for(int j=1;j<n;j++)
         {
             if(a[i]>a[j])
+            int temp;
+            temp=a[i];
             a[i]=a[j];
-            a[j]=a[i];
+            a[j]=temp;
+
         }
     }
     printf("%d %d",a[0],a[n-1]);
