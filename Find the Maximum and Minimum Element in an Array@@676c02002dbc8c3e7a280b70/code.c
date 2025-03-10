@@ -14,7 +14,7 @@ int main(){
             a[j]=a[i];
         }
     }
-    printf("%d",a[0]);
+    printf("%d ",a[0]);
     printf("%d",a[n-1]);
 
     
