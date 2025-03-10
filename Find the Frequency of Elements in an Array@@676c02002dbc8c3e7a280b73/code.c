@@ -14,6 +14,7 @@ int main(){
         b++;
      }
      printf("%d %d",a[i],b);
+     printf("\n");
     }
 
     return 0;
