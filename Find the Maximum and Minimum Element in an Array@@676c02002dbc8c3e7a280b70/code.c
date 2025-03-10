@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     int a[n],i;
     for (i=0;i<n;i++)
-    int temp;
+    
     scanf("%d",&a[i]);
     for(i=0;i<n-1;i++)
     {
@@ -12,6 +12,7 @@ int main(){
         {
             if(a[i]>a[j])
         {
+            int temp;
             temp=a[i];
             a[i]=a[j];
             a[j]=temp;
