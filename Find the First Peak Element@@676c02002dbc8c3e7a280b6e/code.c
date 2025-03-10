@@ -16,7 +16,7 @@ int main(){
     for (i=1;i<n-1;i++)
     {
          
-         if (a[i]>a[i-1] && a[i]<a[i+1])
+         if (a[i]>a[i-1] && a[i]>a[i+1])
         {   
            printf("%d",a[i]);
            return 0;
