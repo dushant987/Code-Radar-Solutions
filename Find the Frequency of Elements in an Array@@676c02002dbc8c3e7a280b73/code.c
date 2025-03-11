@@ -7,16 +7,17 @@ int main(){
     scanf("%d",&a[i]);
     for(i=0;i<n;i++)
     {
-        if (a[i]== -1)
-        {
-            continue;
-        }
+     if (a[i]==key)
+     {
+        continue;
+     }
      int b=1;
      for(int j=i+1;j<n;j++)
      {
         if (a[i]==a[j])
         b++;
-        a[i]== -1;
+        int k;
+        k = a[i];
      }
      printf("%d %d",a[i],b);
      printf("\n");
