@@ -10,6 +10,7 @@ int main(){
      if (a[i]==k)
      {
         continue;
+     }
      int b=1;
      for(int j=i+1;j<n;j++)
      {
@@ -20,6 +21,6 @@ int main(){
      printf("%d %d",a[i],b);
      printf("\n");
     }
-    }
+    
     return 0;
 }
