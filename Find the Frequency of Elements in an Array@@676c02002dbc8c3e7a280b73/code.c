@@ -16,7 +16,7 @@ int main(){
          printf("%d %d",a[i],d);
          printf("\n");
 
-      for(j=i+1;j<n;j++)
+      for(int j=i+1;j<n;j++)
       {
         if( a[i]==a[j])
         {
