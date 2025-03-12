@@ -8,9 +8,12 @@ int main(){
     int mark;
     for(i=0;i<n;i++)
     {
-       
-       int d=1; 
-       for(int j=i+1;j<n;j++)
+       if(a[i]==mark)
+       {
+        continue;
+       }
+       int d=0; 
+       for(int j=0;j<n;j++)
        {
          if (a[i]==a[j])
          mark=a[i];
