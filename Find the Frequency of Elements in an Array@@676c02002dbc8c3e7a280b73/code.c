@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<n;i++)
     {
      
-     if (i==0)
+if (i==0)
      {
      int d=0; 
      for(int j=0;j<n;j++)
@@ -20,14 +20,20 @@ int main(){
      printf("\n");
     }
 
-    else if ( i!=0 && a[i+1]==a[i])
-    {
-        continue;
-    }
+    //else if ( i!=0 && a[i+1]==a[i])
+    //{
+     //   continue;
+   // }
 
+else
+    { 
+    if (a[i]==a[i-1])
+        {
+            continue;
+        } 
     else
-    {
-     int b=0; 
+        {
+            int b=0; 
      for(int j=0;j<n;j++)
      {
         if (a[i]==a[j])
@@ -35,6 +41,8 @@ int main(){
      }
      printf("%d %d",a[i],b);
      printf("\n");
+        }
+     
     }
      
     }
