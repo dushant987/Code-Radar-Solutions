@@ -5,11 +5,13 @@ int main(){
     int a[n],i;
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
+    int flag;
     for(i=0;i<n;i++)
     {
      
 if (i==0)
      {
+     flag=1;
      int d=0; 
      for(int j=0;j<n;j++)
      {
@@ -27,29 +29,35 @@ if (i==0)
 
 else
     { 
-        for (int j=i-1;j>=0;j--)
+        flag = 0;
+    }
+
+if (flag==0)
+    {
+        for (int k=0;k<n;k++)
         {
-            if (a[i]==a[j])
+            if (a[i]==a[k])
            {
             continue;
            } 
+        
+            else
+            {
+               int c=0; 
+               for(int l=0;l<n;l++)
+              {
+               if (a[i]==a[l])
+               c++;
+              }
+                printf("%d %d",a[i],c);
+                printf("\n");
+            }
      
+        
         }
-     else
-        {
-            int b=0; 
-     for(int j=0;j<n;j++)
-     {
-        if (a[i]==a[j])
-        b++;
-     }
-     printf("%d %d",a[i],b);
-     printf("\n");
-        }
-     
+        
     }
      
     }
-    
     return 0;
 }
