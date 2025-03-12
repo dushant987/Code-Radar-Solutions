@@ -10,14 +10,14 @@ int main(){
      
      if (i==0)
      {
-     int b=0; 
+     int d=0; 
      for(int j=0;j<n;j++)
      {
         if (a[i]==a[j])
-        b++;
+        d++;
         k = a[i];
      }
-     printf("%d %d",a[i],b);
+     printf("%d %d",a[i],d);
      printf("\n");
     }
 
