@@ -20,6 +20,7 @@ int main(){
      printf("%d %d",a[i],b);
      printf("\n");
     }
+
     else if
     {
         if(a[i+1]==a[i])
@@ -28,8 +29,9 @@ int main(){
         }
     }
 
-    else{
-        int b=0; 
+    else
+    {
+     int b=0; 
      for(int j=0;j<n;j++)
      {
         if (a[i]==a[j])
@@ -39,6 +41,7 @@ int main(){
      printf("%d %d",a[i],b);
      printf("\n");
     }
+     
     }
     
     return 0;
