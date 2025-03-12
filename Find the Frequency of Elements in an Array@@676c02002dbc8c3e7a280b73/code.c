@@ -10,7 +10,7 @@ int main(){
     {
        if a[i]
        int d=0; 
-       for(int j=i;j<n;j++)
+       for(int j=0;j<n;j++)
        {
          if (a[i]==a[j])
          mark=a[i];
