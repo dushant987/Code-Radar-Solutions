@@ -34,7 +34,7 @@ else
 
 if (flag==0)
     {
-        for (int k=0;k<n;k++)
+        for (int k=i-1;k>=0;k--)
         {
             if (a[i]==a[k])
            {
@@ -44,7 +44,7 @@ if (flag==0)
             else
             {
                int c=0; 
-               for(int l=0;l<n;l++)
+               for(int l=i+1;l<n;l++)
               {
                if (a[i]==a[l])
                c++;
