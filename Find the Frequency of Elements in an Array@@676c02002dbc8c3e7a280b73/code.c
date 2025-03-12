@@ -8,10 +8,6 @@ int main(){
     int mark;
     for(i=0;i<n;i++)
     {
-       if(a[i]==mark)
-       {
-        continue;
-       }
        int d=0; 
        for(int j=0;j<n;j++)
        {
