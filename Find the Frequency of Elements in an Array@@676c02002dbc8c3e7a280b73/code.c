@@ -20,7 +20,7 @@ int main(){
      printf("\n");
     }
 
-    else if (a[i+1]==a[i])
+    else if ( i!=0 && a[i+1]==a[i])
     {
         continue;
     }
