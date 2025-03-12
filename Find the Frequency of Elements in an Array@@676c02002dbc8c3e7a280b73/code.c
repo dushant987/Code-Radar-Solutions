@@ -27,11 +27,15 @@ if (i==0)
 
 else
     { 
-    if (a[i]==a[i-1])
+        for (int j=i-1;j>=0;j--)
         {
+            if (a[i]==a[j])
+           {
             continue;
-        } 
-    else
+           } 
+     
+        }
+     else
         {
             int b=0; 
      for(int j=0;j<n;j++)
