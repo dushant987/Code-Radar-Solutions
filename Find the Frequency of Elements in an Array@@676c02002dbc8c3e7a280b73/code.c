@@ -20,12 +20,9 @@ int main(){
      printf("\n");
     }
 
-    else if
+    else if (a[i+1]==a[i])
     {
-        if(a[i+1]==a[i])
-        {
-            continue;
-        }
+        continue;
     }
 
     else
