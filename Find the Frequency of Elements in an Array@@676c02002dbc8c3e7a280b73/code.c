@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int a[n],i,k;
+    int a[n],i;
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
     for(i=0;i<n;i++)
@@ -15,7 +15,6 @@ int main(){
      {
         if (a[i]==a[j])
         d++;
-        k = a[i];
      }
      printf("%d %d",a[i],d);
      printf("\n");
@@ -36,7 +35,6 @@ int main(){
      {
         if (a[i]==a[j])
         b++;
-        k = a[i];
      }
      printf("%d %d",a[i],b);
      printf("\n");
