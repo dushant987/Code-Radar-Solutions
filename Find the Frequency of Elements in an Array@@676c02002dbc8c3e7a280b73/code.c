@@ -7,12 +7,13 @@ int main(){
     scanf("%d",&a[i]);
     for(i=0;i<n;i++)
     {
+     
      if (a[i]==k)
      {
         continue;
      }
-     int b=1;
-     for(int j=i+1;j<n;j++)
+     int b=0; 
+     for(int j=0;j<n;j++)
      {
         if (a[i]==a[j])
         b++;
