@@ -5,10 +5,10 @@ int main(){
     int a[n],x,store;
     for(x=0;x<n;x++)
     scanf("%d",&a[x]);
-    int a[i];
-    for(int i=0;i<n;i++)
-    x=i;
-    a[i]=a[x];
+    //int a[i];
+    //for(int i=0;i<n;i++)
+    //x=i;
+    //a[i]=a[x];
     for(x=0;x<n;x++)
     
     {
@@ -19,9 +19,9 @@ int main(){
         store=x;
         mark++;
 
-    for(i=0;i<n;i++);
+    for(x=0;x<n;x++);
      
-     if (store=i)
+     if (store=x)
      {
         continue;
      }
@@ -29,10 +29,10 @@ int main(){
        int d=0; 
        for(int j=0;j<n;j++)
        {
-         if (a[i]==a[j])
+         if (a[x]==a[j])
          d++;
        }
-         printf("%d %d",a[i],d);
+         printf("%d %d",a[x],d);
          printf("\n");
 
       
