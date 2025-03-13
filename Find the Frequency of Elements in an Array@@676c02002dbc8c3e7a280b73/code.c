@@ -6,11 +6,12 @@ int main(){
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
     for(i=0;i<n;i++)
-    if (check>0)
+    
+    {
+        if (check>0)
     {
       continue;
     }
-    {
         if (i>0)
         for(int j=0;j<i;j++)
         if( a[i]==a[j])
