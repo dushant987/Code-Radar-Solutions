@@ -14,7 +14,7 @@ int main(){
     {
         
         int mark=0;
-        for(int k=0;k<i;k++)
+        for(int k=0;k<x;k++)
         if( a[x]==a[k])
         store=x;
         mark++;
