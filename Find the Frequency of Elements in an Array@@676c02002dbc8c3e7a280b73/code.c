@@ -5,6 +5,7 @@ int main(){
     int a[n],x,store;
     for(x=0;x<n;x++)
     scanf("%d",&a[x]);
+    int a[i];
     for(int i=0;i<n;i++)
     x=i;
     a[i]=a[x];
