@@ -9,7 +9,7 @@ int main(){
     //for(int i=0;i<n;i++)
     //x=i;
     //a[i]=a[x];
-    for(x=0;x<n;x++)
+    for(x=1;x<n;x++)
     
     {
         
