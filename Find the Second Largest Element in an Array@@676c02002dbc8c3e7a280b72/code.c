@@ -16,6 +16,8 @@ int main(){
             a[j]=a[i];
             a[i]=temp;
             }
+
+            printf("%d",a[i]);
         }
     }
 
@@ -23,6 +25,6 @@ int main(){
     if (a[i]==a[i+1])
     continue;
     else
-    printf("%d",a[i]);
+    printf("%d",a[i+1]);
     return 0;
 }
