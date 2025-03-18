@@ -21,6 +21,7 @@ int main(){
         }
 
         printf("%d %d", a[i], count);
+        printf("\n")
     }
 
     
