@@ -14,9 +14,10 @@ int main(){
           {
             b++;
           }
+          printf("%d %d",a[i],b);
+          printf("\n");
         }
-        printf("%d %d",a[i],b);
-        printf("\n");
+        
 
     }
 
