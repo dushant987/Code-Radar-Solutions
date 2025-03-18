@@ -18,9 +18,7 @@ int main(){
             }
         }
     }
-
-printf("%d",a[i]);
-    for(int i=0;i<n;i++)
+    
     if (a[i]==a[i+1])
     continue;
     else
