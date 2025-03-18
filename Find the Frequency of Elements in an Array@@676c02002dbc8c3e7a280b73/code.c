@@ -10,10 +10,8 @@ int main(){
         int b=0;
         for(int j=0; j < n; j++)
         {
-          if(a[i]=a[j])
-          {
+          if(a[i]=a[j]) 
             b++;
-          }
         }
         printf("%d %d",a[i],b);
         printf("\n");
