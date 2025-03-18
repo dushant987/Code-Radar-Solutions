@@ -11,7 +11,7 @@ int main(){
     {
         if(visited[i]) continue;
         int count = 1;
-        for(int j = 0; j < n; j++)
+        for(int j = i + 1; j < n; j++)
         {
             if(a[i] == a[j])
             {
