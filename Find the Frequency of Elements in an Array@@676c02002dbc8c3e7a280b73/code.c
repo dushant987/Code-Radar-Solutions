@@ -11,12 +11,12 @@ int main(){
      visited[i]=0;
     }
 
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
 
         if(visited[i]) continue;
 
         int b=1;
-        for(j=i+1;j<n;j++){
+        for(int j=i+1;j<n;j++){
             if (a[i]==a[j]){
             b++;
             visited[j]=1;
