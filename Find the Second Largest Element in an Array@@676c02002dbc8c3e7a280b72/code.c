@@ -21,8 +21,13 @@ int main(){
 
     for(int i=0;i<n;i++)
     {
+     int same=0;
      if (a[i]==a[i+1])
-    continue;
+     {
+       same++;
+       continue;
+     }
+    
     else
     {
     printf("%d",a[i+1]);
@@ -30,6 +35,10 @@ int main(){
     }
 
     }
+
+    if (same>0)
+    printf("%d",a[i]);
+
     
     return 0;
 }
