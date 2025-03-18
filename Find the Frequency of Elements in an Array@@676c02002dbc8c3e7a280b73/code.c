@@ -14,7 +14,7 @@ int main(){
 
     for(int i = 0; i < n; i++)
     {
-        if(visited[i]) continue;
+        if(visited[i] != 0) continue;
         int count = 0;
         for(int j = 0; j < n; j++)
         {
