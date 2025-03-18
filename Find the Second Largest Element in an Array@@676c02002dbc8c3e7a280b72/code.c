@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&n);
     if (n==1)
     {
-     printf("-1");
+     printf("-2");
     }
     int a[n];
     for(int i=0;i<n;i++)
