@@ -16,11 +16,10 @@ int main(){
             a[j]=a[i];
             a[i]=temp;
             }
-
-            printf("%d ",a[i]);
         }
     }
 
+printf("%d",a[i]);
     for(int i=0;i<n;i++)
     if (a[i]==a[i+1])
     continue;
