@@ -17,7 +17,7 @@ int main(){
             a[i]=temp;
             }
 
-            printf("%d",a[i]);
+            printf("%d ",a[i]);
         }
     }
 
