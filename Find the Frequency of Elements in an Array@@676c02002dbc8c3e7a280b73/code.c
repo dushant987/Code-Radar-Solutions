@@ -7,11 +7,11 @@ int main(){
 
     int visited[n];
 
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n - 1; i++)
     {
         if(visited[i]) continue;
         int count = 0;
-        for(int j = 0; j < n; j++)
+        for(int j = 0; j < n - 1; j++)
         {
             if(a[i] == a[j])
             {
