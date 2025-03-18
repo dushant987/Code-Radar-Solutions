@@ -24,9 +24,11 @@ int main(){
 
     for(int i=0;i<n;i++)
     {
+    int b=0;
      if (a[i]==a[i+1])
      {
-       continue;
+        b++;
+       //continue;
      }
     
      else
@@ -34,7 +36,12 @@ int main(){
      printf("%d",a[i+1]);
      return 0;
      }
-
+      
+      if (b>0)
+      {
+        printf("-1");
+        return 0;
+      }
     }
 
     
