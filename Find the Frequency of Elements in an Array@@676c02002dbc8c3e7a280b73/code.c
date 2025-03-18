@@ -15,15 +15,13 @@ int main(){
 
         if(visited[i]) continue;
 
-        else{
-        int b=0;
+        int b=1;
         for(j=i+1;j<n;j++){
-            if (a[i]==a[j])
+            if (a[i]==a[j]){
             b++;
             visited[j]=1;
+            }
         }
-        }
-
         printf("%d %d",a[i],b);
         printf("\n");
     }
