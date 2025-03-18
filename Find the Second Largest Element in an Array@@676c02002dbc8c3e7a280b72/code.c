@@ -17,11 +17,6 @@ int main(){
             a[i]=temp;
             }
             
-            else{
-              printf("-1");
-              return 0;
-            }
-            
         }
     }
 
