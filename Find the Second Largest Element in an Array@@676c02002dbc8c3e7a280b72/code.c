@@ -4,8 +4,8 @@ int main(){
     scanf("%d",&n);
     if (n==1)
     {
-     int i;
-     scanf("%d",a[i]);
+     //int i=0;
+     //scanf("%d",a[i]);
      printf("-1");
     }
     int a[n];
