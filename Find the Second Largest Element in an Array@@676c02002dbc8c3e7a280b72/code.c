@@ -16,6 +16,8 @@ int main(){
             a[j]=a[i];
             a[i]=temp;
             }
+
+            printf("-1");
         }
     }
 
