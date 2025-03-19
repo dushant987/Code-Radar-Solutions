@@ -16,9 +16,9 @@ int main(){
             a[i+k]=a[0];
         }
 
-       // for(int j=0;j<k;j++){
-         //   a[n-(j+1)]=a[j];
-       // }
+        for(int j=0;j<k;j++){
+            a[n-(j+1)]=a[j];
+        }
         
         for(int i=0;i<n;i++)
         printf("%d",a[i]);
