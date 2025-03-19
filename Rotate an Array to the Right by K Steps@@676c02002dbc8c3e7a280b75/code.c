@@ -7,13 +7,13 @@ int main(){
     scanf("%d",&a[i]);
     int k;
     scanf("%d",&k);
-    if (k==0){
-      for(int i=0;i<n;i++)
-      printf("%d",a[i]);
-    }
+    //if (k==0){
+      //for(int i=0;i<n;i++)
+      //printf("%d",a[i]);
+    //}
    // else{
-     //   for(int i=0;i<=k;i++){
-       //     a[i+k]=a[0];
+        for(int i=0;i<=k;i++){
+            a[i+k]=a[0];
        // }
 
        // for(int j=0;j<k;j++){
