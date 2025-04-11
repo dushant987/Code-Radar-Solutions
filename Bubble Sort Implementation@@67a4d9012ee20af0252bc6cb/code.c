@@ -1,5 +1,5 @@
 void bubbleSort (int arr[] ,int n){
-    int j,b,;
+    int j,b;
     for (int i=0;i<=n;i++){
     if (arr[i]<arr[j])
     {
