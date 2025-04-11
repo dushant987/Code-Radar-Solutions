@@ -2,13 +2,14 @@ void bubbleSort (int arr[] ,int n){
     int j,store;
     for (int i=0;i<=n-2;i++){
     for(int j=0;j<=n-1;j++)
-    if (arr[i]<arr[j])
+    if (arr[i]>arr[j])
     {
-     store = arr[i];
-     arr[i] = arr[j];
-     arr[j]= store;
+     store = arr[j];
+     arr[j] = arr[i];
+     arr[i]= store;
     }
 }
+  
 }
 
 void printArray(int arr[],int n){
